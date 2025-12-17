@@ -14,6 +14,7 @@ Route::get('/retiros/{usuario}', [RetiroController::class, 'create'])->name('ret
 Route::post('/retiros', [RetiroController::class, 'store'])->name('retiros.store');
 
 Route::get('/usuarios', [UsuarioController::class, 'index'])->name('usuarios.index');
+Route::resource('usuarios', UsuarioController::class);
 
 // Ver saldo e historial de retiros de un usuario
 Route::get('/usuarios/{id}', [UsuarioController::class, 'show'])
