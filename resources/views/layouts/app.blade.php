@@ -43,7 +43,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm mb-4 rounded">
                 <div class="container-fluid">
                     <span class="navbar-brand fw-bold">
-                        Sistema Ventas
+                        Sistema Bancario
                     </span>
                 </div>
             </nav>
